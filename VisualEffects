@@ -1,0 +1,10 @@
+public class visualEffects {
+    Scanner scnr;
+    public visualEffects(){
+        public visualEffects(fileName){
+            scnr = new Scanner(fileName);
+            
+        }
+        
+    }
+}

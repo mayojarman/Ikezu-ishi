@@ -1,3 +1,4 @@
+import javax.swing.*;
 public class Central {
     public static void central(String args[]){
         JFrame frame = new JFrame("My First GUI");
@@ -6,5 +7,5 @@ public class Central {
         JButton button = new JButton("Press");
         frame.getContentPane().add(button); // Adutton to content pane of frame
         frame.setVisible(true);
-     }
+    }
 }
